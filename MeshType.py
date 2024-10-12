@@ -1,0 +1,40 @@
+from enum import Enum
+#                                                                             usage   chinese name
+class MeshType(Enum):
+    WallOuter = "WallOuter"                                                 #  145966 外墙
+    WallInner = "WallInner"                                                 #  377850 内墙
+    Baseboard = "Baseboard"                                                 #  348846 踢脚线
+    WallTop = "WallTop"                                                     #  214001 墙顶
+    WallBottom = "WallBottom"                                               #  213856 墙底
+    Floor = "Floor"                                                         #  87615 地板
+    SlabBottom = "SlabBottom"                                               #  4511 板底
+    SlabSide = "SlabSide"                                                   #  157478 板侧
+    ExtrusionCustomizedCeilingModel = "ExtrusionCustomizedCeilingModel"     #  6210 挤出定制天花板模型
+    LightBand = "LightBand"                                                 #  16775 灯带
+    Ceiling = "Ceiling"                                                     #  49952 天花板
+    Window = "Window"                                                       #  25052 窗户
+    Door = "Door"                                                           #  52006 门
+    Back = "Back"                                                           #  38029 背面
+    Pocket = "Pocket"                                                       #  160377 口袋
+    CustomizedCeiling = "CustomizedCeiling"                                 #  35961 定制天花板
+    CustomizedFeatureWall = "CustomizedFeatureWall"                         #  33813 定制特色墙
+    CustomizedPersonalizedModel = "CustomizedPersonalizedModel"             #  4788 定制个性化模型
+    Front = "Front"                                                         #  37134 正面
+    BayWindow = "BayWindow"                                                 #  30285 飘窗
+    Cornice = "Cornice"                                                     #  39539 檐口
+    Hole = "Hole"                                                           #  12622 洞
+    Cabinet = "Cabinet"                                                     #  236768 橱柜
+    CustomizedBackgroundModel = "CustomizedBackgroundModel"                 #  362 定制背景模型
+    ExtrusionCustomizedBackgroundWall = "ExtrusionCustomizedBackgroundWall" #  3589 挤出定制背景墙
+    Beam = "Beam"                                                           #  1258 梁
+    Empty = ""                                                              #  1931 空
+    Flue = "Flue"                                                           #  1860 烟道
+    SmartCustomizedCeiling = "SmartCustomizedCeiling"                       #  5566 智能定制天花板
+    CustomizedPlatform = "CustomizedPlatform"                               #  3925 定制平台
+    Column = "Column"                                                       #  3602 柱子
+    CustomizedFurniture = "CustomizedFurniture"                             #  2374 定制家具
+    CabinetLightBand = "Cabinet/LightBand"                                  #  396 橱柜/灯带
+    CustomizedFixedFurniture = "CustomizedFixedFurniture"                   #  4090 定制固定家具
+    CustomizedWainscot = "Customized_wainscot"                              #  2465 定制护墙板
+    SewerPipe = "SewerPipe"                                                 #  169 下水管
+    SlabTop = "SlabTop"                                                     #  1 板顶
